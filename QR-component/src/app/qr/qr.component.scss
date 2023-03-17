@@ -1,0 +1,33 @@
+.card{
+  margin: 6rem auto;
+  width: 17rem;
+  border-radius: 3%;
+  box-shadow: 10px hsl(218, 44%, 22%);
+
+  .qr-code {
+    #img{
+      padding: 12px;
+      width: 17rem;
+      height: 265px;
+      border-radius: 7%;
+    }
+  }
+
+  .card-body{
+    text-align: center;
+
+    p.card-desc {
+      font-weight: 700;
+      font-size: 17px;
+      padding: 7px;
+      margin: 0;
+    }
+
+    p.card-text{
+      color: hsl(220, 15%, 55%);
+      font-weight: 400;
+      font-size: 13px;
+      padding: 15px;
+    }
+  }
+}
